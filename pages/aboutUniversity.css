@@ -1,0 +1,215 @@
+
+@import url(../navBar/navBar.css);
+@import url(../footer/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* uni section strats */
+
+
+
+* {
+  font-family: 'montserrat';
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  -webkit-transition: .1s linear;
+  transition: .2s linear;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color:  #262525}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+html::-webkit-scrollbar {
+  width: 1.2rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 2rem;
+}
+
+section {
+  padding: 15rem 9%;
+}
+
+/* buttons */
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.2rem solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+  background:linear-gradient(
+    93.74deg,
+    rgba(255, 255, 255, 0.46) -0.17%,
+    rgba(3, 3, 3, 0) 196.96%
+  );
+  backdrop-filter: blur(4px);
+  border-radius: 15px;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.2rem 3rem;
+  margin-top: 2rem;
+}
+
+.btn:hover {
+  background: linear-gradient(
+    93.74deg,
+    rgba(255, 255, 255, 0.46) -0.17%,
+    #FFB803 50%);
+  color: rgb(0, 0, 0);
+  transform: scale(1.15);
+  border: 0.3rem solid #ffffff;
+  font-weight: 550;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 4rem;
+  color: #ffffff;
+}
+/* buttons end */
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .about .content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 42rem;
+            flex: 1 1 42rem;
+            /* padding-right: 2.5rem; */
+  }
+  
+  .about .content h3 {
+    font-size: 6rem;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 300;
+  }
+  
+  span{
+    color: #FFB803;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5rem;
+  }
+  
+  .about .content p {
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 3rem 0;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .about .image,
+  .about .image-1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 42rem;
+        flex: 1 1 42rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-top: 6rem;
+  }
+  
+  .about .image img {
+    width: 120rem;
+    height: 60rem;
+    /* -webkit-box-shadow: 2rem 2rem 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 1rem 1rem 0 rgb(255, 255, 255); */
+            border-radius: 1rem;
+  }
+  
+  /* uni section ends */
+
+  @media (max-width: 500px) {
+    .about .image img {
+      height: 100%;
+      width: 100%;
+    }
+    .about .image-1 {
+      width: 200px;
+    }
+  }
+  /* methana youtube videos 2ka responsive naha */
+
+  @media (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
+    .heading {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .footer .allright,
+    .footer .privacypolicy {
+      width: 100%;
+      font-size: 3rem;
+      line-height: 0.8;
+      padding: 1rem;
+    }
+  
+      .footer .copyright {
+       padding: 1.5rem;
+    }
+  
+        .footer .box-container .box img {
+      margin-left: 15rem;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .footer .allright,
+    .footer .privacypolicy {
+      width: 100%;
+      font-size: 3rem;
+      line-height: 0.8;
+      padding: 1rem;
+    }
+  
+      .footer .copyright {
+       padding: 1.5rem;
+    }
+  
+        .footer .box-container .box img {
+      margin-left: 13rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    html {
+      font-size: 50%;
+    }
+    .heading {
+      font-size: 3rem;
+    }
+  }
