@@ -70,6 +70,7 @@ section {
     #FFB803 50%);
   color: rgb(0, 0, 0);
   transform: scale(1.15);
+  transition: 0.3s ease-out !important;
   border: 0.3rem solid #ffffff;
   font-weight: 500;
 }

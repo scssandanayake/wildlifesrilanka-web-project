@@ -93,7 +93,7 @@
     <div class="box-container">
 
         <div class="box">
-            <img data-aos="fade-right"data-aos-duration="700" src="./public/Rectangle 2.jpg" alt="elephant">
+            <img data-aos="fade-right"data-aos-duration="700" src="./public/rectangle 2.jpg" alt="elephant">
             <img data-aos="fade-right"data-aos-duration="500" src="./public/Rectangle 1.jpg" alt="whale">
             <img data-aos="fade-left"data-aos-duration="500" src="./public/Rectangle 3.jpg" alt="eagle">
             <img data-aos="fade-left"data-aos-duration="700" src="./public/Rectangle 4.jpg" alt="deer">
