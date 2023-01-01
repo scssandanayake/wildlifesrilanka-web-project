@@ -8,7 +8,7 @@
                             Numerous species thrive in the country's diverse landscape, which includes rainforests, grasslands, and wetlands.
                             This beautiful island nation is known for its macaques, langurs, elephants, leopards, sloth bears, deer, and
                             peacocks.">
-    <meta name="keywords" content="visit Sri Lanka, Travel Sri Lanka, Beautiful Sri Lanka, Wildlife Details, Wildlife, Wildlife Photos, Rain Forest, Biodiversity, Yala">
+    <meta name="keywords" content="visit Sri Lanka, Travel Sri Lanka, Beautiful Sri Lanka, Wildlife Details, Wildlife, Nature, Wildlife Photos, Rain Forest, Biodiversity, Yala">
     <title>Wildlife Sri Lanka </title>
 
     <!-- font awesome cdn link  -->
@@ -50,6 +50,7 @@
 </header>
 <!-- header section ends -->
 
+
 <!-- home section starts  -->
 <section class="home" id="home">
 
@@ -58,11 +59,11 @@
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-                <div data-aos="fade-right"data-aos-duration="500" class="box" style="background: linear-gradient(rgba(0, 0, 0, 0.100), rgba(0, 0, 0, 0.550)), url(./public/mainphoto.jpg) no-repeat;">
+                <div data-aos="fade-right"data-aos-duration="300" class="box" style="background: linear-gradient(rgba(0, 0, 0, 0.100), rgba(0, 0, 0, 0.550)), url(./public/mainphoto.jpg) no-repeat;">
                     <div class="content">
-                        <span>The Wildlife </span>
+                        <span>The Wildlife Of</span>
                         <h3>Sri Lanka</h3>
-                        <p data-aos="fade-up" data-aos-duration="500">
+                        <p data-aos="fade-up" data-aos-duration="200">
                             Sri Lanka is home to a wide range of fauna and flora including fish, reptiles, amphibians, mammals, and birds.
                             Numerous species thrive in the country's diverse landscape, which includes rainforests, grasslands, and wetlands.
                             This beautiful island nation is known for its macaques, langurs, elephants, leopards, sloth bears, deer, and
@@ -88,16 +89,16 @@
 <!-- category section starts  -->
 <section class="category">
 
-    <h1 data-aos="fade-down"data-aos-duration="500" class="heading">BEAUTY TO <span class="word">BEHOLD</span></h1>
+    <h1 data-aos="fade-down"data-aos-duration="200" class="heading">BEAUTY TO <span class="word">BEHOLD</span></h1>
 
     <div class="box-container">
 
         <div class="box">
-            <img data-aos="fade-right"data-aos-duration="700" src="./public/rectangle 2.jpg" alt="elephant">
-            <img data-aos="fade-right"data-aos-duration="500" src="./public/Rectangle 1.jpg" alt="whale">
-            <img data-aos="fade-left"data-aos-duration="500" src="./public/Rectangle 3.jpg" alt="eagle">
-            <img data-aos="fade-left"data-aos-duration="700" src="./public/Rectangle 4.jpg" alt="deer">
-            <p data-aos="fade-up" data-aos-duration="500">
+            <img data-aos="fade-right"data-aos-duration="300" src="./public/rectangle 2.jpg" alt="elephant">
+            <img data-aos="fade-right"data-aos-duration="200" src="./public/Rectangle 1.jpg" alt="whale">
+            <img data-aos="fade-left"data-aos-duration="200" src="./public/Rectangle 3.jpg" alt="eagle">
+            <img data-aos="fade-left"data-aos-duration="300" src="./public/Rectangle 4.jpg" alt="deer">
+            <p data-aos="fade-up" data-aos-duration="200">
                 It is no secret that Sri Lanka is one of the best places in the world for wildlife photography. Known as the pearl
                 of the Indian Ocean this island nation has some of the best open habitats with wild animals in the likes of Yala
                 National Park, Udawalawa National Park, and Wilpattu National Park. And some of the most scenic locations that any
@@ -118,13 +119,13 @@
 <div class="abs">
 <section class="about" id="about">
 
-    <div data-aos="zoom-in-up"data-aos-duration="500" class="image">
+    <div data-aos="zoom-in-up"data-aos-duration="300" class="image">
         <img src="./public/elephants.jpg" alt="">
     </div>
 
     <div class="content">
-        <h3 data-aos="fade-right"data-aos-duration="500">The Ultimate <span>Experience of Nature</span> </h3>
-        <p data-aos="fade-up" data-aos-duration="500">
+        <h3 data-aos="fade-right"data-aos-duration="200">The Ultimate <span>Experience of Nature</span> </h3>
+        <p data-aos="fade-up" data-aos-duration="200">
             As a country with one of the most diverse ecosystems in the world, Sri Lanka is a paradise for nature lovers. This
             small island has something for every nature lover, offering an extraordinary involvement with nature that one can
             hardly find in any other place in the world. As the home to several national parks, each park offers a different
@@ -147,8 +148,8 @@
 <section class="about" id="about">
 
     <div class="content">
-        <h3 data-aos="fade-right"data-aos-duration="500" class="let">Discover The <span class="diverse">Diversity</span> </h3>
-        <iframe  data-aos="fade-up"data-aos-duration="500" width="1250" height="650" src="https://www.youtube-nocookie.com/embed/2Xs2k0pBM8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3 data-aos="fade-right"data-aos-duration="200" class="let">Discover The <span class="diverse">Diversity</span> </h3>
+        <iframe  data-aos="fade-left"data-aos-duration="200" width="1250" height="650" src="https://www.youtube-nocookie.com/embed/2Xs2k0pBM8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 </section>
@@ -163,15 +164,15 @@
     
         <div class="panel panel-default" style="margin-top:50px">
             <div class="panel-body text-white">
-                <h3>Community forum</h3>
+                <h3 style="font-size:4rem; margin-bottom:3rem; color: #FFB803;">Community Forum</h3>
                 <hr>
                 <form name="frm" method="post" action="server/add_comment.php">
                     <div class="form-group">
-                        <label for="usr">Write your name:</label>
+                        <label style="font-size:2rem;" for="usr">Enter Your Name :</label>
                         <input type="text" class="form-control form-control-lg" name="name" required>
                     </div>
                     <div class="form-group">
-                        <label for="comment">Write your question:</label>
+                        <label style="font-size:2rem;" for="comment">Share Your Experience :</label>
                         <textarea class="form-control form-control-lg " rows="5" name="msg" required></textarea>
                     </div>
                     <input type="submit" id="butsave" name="savecomment" class="btn btn-primary" value="Send">
@@ -181,7 +182,7 @@
         <br>
         <div class="panel panel-default">
             <div class="panel-body">
-                <h4 class="text-white">Recent questions</h4>           
+                <h4 style="font-size:2rem; margin-bottom:2rem; margin-top:2rem;" class="text-white">Recent Reviews</h4>           
                 <table class="table" id="MyTable" style="background-color: #edfafa; border-radius:10px">
                     <tbody id="record">
                         <?php
@@ -205,7 +206,7 @@
                                         <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalCenter<?php echo $comment_id ?>Title">Add Your Reply</h5>
+                                            <h5 style="font-size:3rem;" class="modal-title" id="exampleModalCenter<?php echo $comment_id ?>Title">Add Your Reply</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
@@ -214,11 +215,11 @@
                                                 <form action="server/add_reply.php" method="POST">
                                                     <input type="hidden" name="comment_id" value="<?php echo $comment_id; ?>">
                                                     <div class="form-group">
-                                                        <label for="inputname">Your Name</label>
+                                                        <label style="font-size:1.5rem;" for="inputname">Your Name</label>
                                                         <input type="text" class="form-control" id="inputname" name="name" placeholder="Enter Your Name">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="Reply">Reply</label>
+                                                        <label style="font-size:1.5rem;" for="Reply">Reply</label>
                                                         <textarea name="reply" id="" cols="30" rows="10" class="form-control"></textarea>
                                                     </div>
                                                 
@@ -267,7 +268,7 @@
      <!-- footer section starts  -->
      <section class="footer">
 
-<div data-aos="fade-down" data-aos-duration="500" class="box-container">
+<div data-aos="fade-down" data-aos-duration="200" class="box-container">
 
     <div class="box">
         <h3>Quick Links</h3>       

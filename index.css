@@ -11,7 +11,6 @@
   text-decoration: none;
   -webkit-transition: .1s linear;
   transition: .2s linear;
-  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -41,9 +40,7 @@ section {
   padding: 15rem 9%;
 }
 
-
 /* buttons */
-
 .btn {
   margin-top: 1rem;
   display: inline-block;
@@ -209,9 +206,10 @@ section {
   padding: 1rem 0;
   font-weight: 400;
 }
+/* --home section neds-- */
+
 
 /* ----catogary section starts----- */
-
 .category .heading{
   font-style: thin;
   font-weight: 300;
@@ -243,18 +241,15 @@ section {
   height: 27rem;
   width: 27rem;
   margin-right: 1rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 15rem;
 }
-
-/* .category .box-container .box img {
-  -webkit-box-shadow: 1rem 1rem 0 rgb(255, 255, 255);
-          box-shadow: 1rem 1rem 0 rgba(255, 255, 255, 0.74);
-} */
-
 
 .category .box-container .box p {
   margin-top: 5rem;
+  margin-bottom: 1rem;
   font-size: 2.5rem;
   color: #ffffff;
   padding: 1rem 0;
