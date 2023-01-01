@@ -60,7 +60,7 @@
             <div class="swiper-slide">
                 <div data-aos="fade-right"data-aos-duration="500" class="box" style="background: linear-gradient(rgba(0, 0, 0, 0.100), rgba(0, 0, 0, 0.550)), url(./public/mainphoto.jpg) no-repeat;">
                     <div class="content">
-                        <span>The Wildlife 0f</span>
+                        <span>The Wildlife </span>
                         <h3>Sri Lanka</h3>
                         <p data-aos="fade-up" data-aos-duration="500">
                             Sri Lanka is home to a wide range of fauna and flora including fish, reptiles, amphibians, mammals, and birds.
