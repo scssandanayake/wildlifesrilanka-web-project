@@ -67,4 +67,4 @@ https://windows.php.net/download#php-8.1
 
 5)article page – kasun 
 
-6)privacy policy page – dilmi 
+6)privacy policy page – me 
