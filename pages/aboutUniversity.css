@@ -149,18 +149,21 @@ section {
   
   /* uni section ends */
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     .about .image img {
       height: 100%;
       width: 100%;
     }
     .about .image-1 {
       width: 200px;
+      width: 30px;
+      height: 400px;
+      margin-left: 4rem;
     }
   }
   /* methana youtube videos 2ka responsive naha */
 
-  @media (max-width: 450px) {
+  @media (max-width: 600px) {
     html {
       font-size: 50%;
     }
@@ -169,7 +172,8 @@ section {
     }
   }
   
-  @media (max-width: 500px) {
+  
+  @media (max-width: 600px) {
     .footer .allright,
     .footer .privacypolicy {
       width: 100%;
@@ -183,29 +187,11 @@ section {
     }
   
         .footer .box-container .box img {
-      margin-left: 15rem;
+      margin-left: 10rem;
     }
   }
   
-  @media (max-width: 450px) {
-    .footer .allright,
-    .footer .privacypolicy {
-      width: 100%;
-      font-size: 3rem;
-      line-height: 0.8;
-      padding: 1rem;
-    }
-  
-      .footer .copyright {
-       padding: 1.5rem;
-    }
-  
-        .footer .box-container .box img {
-      margin-left: 13rem;
-    }
-  }
-  
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     html {
       font-size: 50%;
     }
@@ -213,3 +199,11 @@ section {
       font-size: 3rem;
     }
   }
+
+  /* @media (max-width: 600px) {
+    div .image-1 iframe {
+      width: 300px;
+      height: 400px;
+      margin-left: 4rem;
+    }
+  } */
