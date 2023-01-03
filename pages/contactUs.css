@@ -158,14 +158,14 @@
 }
 
 .teams:hover {
-    /* background: rgb(228, 228, 228); */
-    border: 0.5rem solid #FFB803;
+    background:  linear-gradient(188deg, #ffffff 30%, #FFB803 105%);
+    border: 0.5rem solid #ffffff;
 }
 
 .teams img {
     width: 200px;
     height: 200px;
-    /* border-radius: 15rem; */
+    border-radius: 15rem;
 }
 
 .name {

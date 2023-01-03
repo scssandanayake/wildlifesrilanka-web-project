@@ -67,8 +67,4 @@ https://windows.php.net/download#php-8.1
 
 5)article page – kasun 
 
-<<<<<<< HEAD
 6)privacy policy page – me
-=======
-6)privacy policy page – me 
->>>>>>> e39debc41f8efa0f2d1189901a3fc74f5a25e738

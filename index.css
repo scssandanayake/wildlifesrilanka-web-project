@@ -610,3 +610,9 @@ section .content .let{
   }
 }
 
+@media (max-width: 600px) {
+  .home .box .content{
+      width: 70%;
+  }
+}
+
