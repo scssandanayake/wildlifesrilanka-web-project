@@ -129,13 +129,13 @@
     text-align: center;
 }
 
-.header-team{
+/* .header-team{
     padding-top: 30px;
     color: rgb(255, 255, 255);
     font-size: 20px;
     margin: auto;
     line-height: 50px;
-}
+} */
 
 .sub-container {
     max-width: 1400px;
